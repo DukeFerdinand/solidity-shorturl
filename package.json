@@ -1,0 +1,14 @@
+{
+	"name": "solidity-short-url",
+	"version": "1.0.0",
+	"scripts": {
+		"deploy:local": "truffle migrate --network development",
+		"test": "truffle test --network development",
+		"compile": "truffle compile"
+	},
+	"dependencies": {
+		"crypto": "^1.0.1",
+		"truffle": "^5.7.3",
+		"web3": "^1.8.1"
+	}
+}
